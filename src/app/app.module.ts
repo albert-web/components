@@ -23,6 +23,7 @@ import { SpecialRequestComponent } from './special-request/special-request.compo
 import { GkAgeComponent } from './gk-age/gk-age.component';
 import { DonationComponent } from './donation/donation.component';
 import { MathComponent } from './math/math.component';
+import { W6MultiplicationComponent } from './w6-multiplication/w6-multiplication.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { MathComponent } from './math/math.component';
     SpecialRequestComponent,
     GkAgeComponent,
     DonationComponent,
-    MathComponent
+    MathComponent,
+    W6MultiplicationComponent
   ],
   imports: [
     BrowserModule
