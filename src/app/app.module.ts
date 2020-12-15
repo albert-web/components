@@ -11,10 +11,16 @@ import { FormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatButtonModule } from '@angular/material/button';
+
+
+import { SubDealsComponent } from './sub-deals/sub-deals.component';
+
+
 import { TjsSubtractComponent } from './tjs-subtract/tjs-subtract.component';
 import { GuitarGodsComponent } from './guitar-gods/guitar-gods.component';
 import { MatInputModule } from '@angular/material/input';
 import { MultiplicationComponent } from './multiplication/multiplication.component';
+
 import { TipCalculatorComponent } from './tip-calculator/tip-calculator.component';
 import { TimeComponent } from './time/time.component';
 import { MatSelectModule } from '@angular/material/select';
@@ -25,23 +31,39 @@ import { DonationComponent } from './donation/donation.component';
 import { MathComponent } from './math/math.component';
 import { W6MultiplicationComponent } from './w6-multiplication/w6-multiplication.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     PizzaToppingsComponent,
+
+
+    SubDealsComponent,
+
+
     TjsSubtractComponent,
     TjsSubtractionComponent,
     GuitarGodsComponent,
     MultiplicationComponent,
+
     TipCalculatorComponent,
     TimeComponent,
     ServiceSelectComponent,
+
+    TjsSubtractionComponent,
+
+
     TjsSubtractionComponent,
     SpecialRequestComponent,
+
+    GkAgeComponent,
+
+
     GkAgeComponent,
     DonationComponent,
     MathComponent,
     W6MultiplicationComponent
+
   ],
   imports: [
     BrowserModule
